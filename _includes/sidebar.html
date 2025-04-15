@@ -1,4 +1,4 @@
-<div class="chrome:sidebar">
+<div id="mySidepanel" class="chrome:sidebar">
   {% for item in site.sidebar %}
     {% if item.children %}
       {% capture id %}sidebar_item:{{ item.label | strip | downcase | remove: "'" | remove: '"' | escape }}{% endcapture %}

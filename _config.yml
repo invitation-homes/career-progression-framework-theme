@@ -1,9 +1,8 @@
-title: Zendesk Garden Jekyll Theme
-description: A Jekyll theme using the Zendesk Garden design patterns
+title: Engineering Progression
 
 permalink: pretty
 
-search_enabled: true
+search_enabled: false
 auto_page_title: true
 
 mermaid_enabled: true
@@ -11,12 +10,6 @@ mermaid_theme: forest
 
 sidebar:
   - getting-started
-  - label: Customization
-    children:
-      - sidebar
-      - search
-      - relative-nav
-      - additional-config
   - development
 
 highlighter: rouge

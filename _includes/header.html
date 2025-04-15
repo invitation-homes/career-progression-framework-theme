@@ -1,8 +1,11 @@
 <header class="chrome:header">
+  <div class="chrome:logo_nav_item">{% include ih-square-logo.svg %}</div>
   <div class="chrome:header_title">
     <a href="{{ "/" | relative_url }}" class="text-grey-800 no-underline hover:no-underline focus:no-underline">
-      <span class="text-3xl">{{ site.title }}</span>
+      <span class="text-xl">{{ site.title }}</span>
     </a>
+    
   </div>
+  <div><button class="openbtn" onclick="toggleNav()">☰</button>  </div>
   {% if site.search_enabled %} {% include search_input.html %} {% endif %}
 </header>

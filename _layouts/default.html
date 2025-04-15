@@ -9,6 +9,10 @@
     />
     <link
       rel="stylesheet"
+      href="{{ '/assets/css/sidebar.css' | relative_url }}"
+    />    
+    <link
+      rel="stylesheet"
       href="{{ '/assets/css/rouge.css' | relative_url }}"
     />
     <script src="{{ '/assets/js/accordian.js' | relative_url }}"></script>
@@ -21,7 +25,6 @@
 
   <body>
     <div class="chrome">
-      {% include navbar.html %}
       <div class="chrome:body">
         {% include header.html %}
         <div class="chrome:content">
@@ -39,6 +42,19 @@
         {% include footer.html %}
       </div>
     </div>
+    <script>
+      let isSidepanelVisible = true;
+
+      function toggleNav() {
+        const sidepanel = document.getElementById("mySidepanel");
+        if (isSidepanelVisible) {
+          sidepanel.style.display = "none";
+        } else {
+          sidepanel.style.display = "block";
+        }
+        isSidepanelVisible = !isSidepanelVisible;
+      }
+    </script>    
     {% if site.mermaid_enabled != false %}
     <script type="module">
         import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
