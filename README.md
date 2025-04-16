@@ -1,41 +1,35 @@
----
-layout: default
-title: Zendesk Garden Jekyll Theme
-auto_title: false
----
+[![](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/wild-flame)
 
-# jekyll-theme-zendesk-garden
+# jekyll-simple
 
-A Jekyll theme using Zendesk Garden design patterns.
+## simple
+simple is a theme designed for blogger using static site generator like jekyll, Hexo etc.
 
-This is was initially possible thanks to the following awesome libraries:
+Especially for those who writes in both Chinese and English. The font-type setting looks really good when writers use Chinese mixed with English.
 
-- [`jekyll-postcss` plugin](https://github.com/mhanberg/jekyll-postcss)
-- [`tailwindcss` as a PostCSS plugin](https://tailwindcss.com/docs/installation#add-tailwind-as-a-post-css-plugin)
-- [zendeskgarden/tailwindcss](https://github.com/zendeskgarden/tailwindcss)
+Supposedly, this could work with Japanese as well but never had a chance to try.
 
-> Note: Those have since been removed and any relevant CSS directly included.
+## Story behind this theme
 
-## Usage
+It has been long that using font with Chinese in web was a tedious and time-consuming work. It would be almost impossible to make different OS or devices to look the same.
 
-### GitHub Pages
+iOS 9 has pulished some new fonts in Chinese and I decided to make one theme that looks good on iOS devices, at the same time, making it acceptable on computers using other fonts.
 
-Define a `_config.yml` file in your GitHub pages directory and specify this remote theme:
+So mobile goes first, then the macOS.
 
-```yaml
-remote_theme: zendesk/jekyll-theme-zendesk-garden@main
-```
+## ^-^
 
-[Full Documentation](https://zendesk.github.io/jekyll-theme-zendesk-garden/)
+You can click the button [Say Thanks!](https://saythanks.io/to/wild-flame) at the first of README if you use/like my project. :D
 
-## Contributing
+Thanks you guys, I got a lot of thanks from people.
 
-Bug reports and pull requests are welcome [on GitHub](https://github.com/zendesk/jekyll-theme-zendesk-garden).
-This project is intended to be a safe, welcoming space for collaboration, and contributors are
-expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+- [ryan](https://saythanks.io/note/a9a342ba-e9aa-4707-b169-05b6ae49757d)
+- [Daniel Moore](https://saythanks.io/note/da81706c-8884-4dbc-89b0-eed242ac3b19) and feel free to visit his work [border quiz](http://danielmoore.us/borders-quiz?singapore-planning-areas)
+- [David Laing](https://saythanks.io/note/fb5d24eb-3be8-4f92-842b-c6dd7ce4c239)
+- [Meg](https://saythanks.io/note/6d56e228-e17c-4641-9524-9f9fd6205068)
 
-## License
+![image](https://user-images.githubusercontent.com/4491950/53502929-0d375880-3aea-11e9-9ce1-13eba2ec4643.png)
 
-Copyright 2021 Zendesk
+- And more
 
-Licensed under the [Apache License, Version 2.0](LICENSE.txt)
+![image](https://user-images.githubusercontent.com/4491950/53502875-e1b46e00-3ae9-11e9-97e4-d70d038a36e9.png)
