@@ -56,6 +56,12 @@ body {
   gap: 10px; // Optional: Add spacing between the span and h2 elements
 }
 
+@media (min-width: $on-laptop) {
+  .logo {
+    justify-content: right;
+  }
+}
+
 .logo span {
   display: inline-block; // Ensure the span behaves properly inside flexbox
 }
