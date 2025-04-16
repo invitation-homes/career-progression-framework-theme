@@ -1,21 +1,18 @@
-{%- capture version -%}
-{%- if site.version and site.version != "" -%}
-{{ site.version }}
-{%- elsif site.github.latest_release.tag_name -%}
-{{ site.github.latest_release.tag_name }}
-{%- elsif site.github.build_revision -%}
-{{ site.github.build_revision }}
-{%- endif -%}
-{%- endcapture -%}
-<footer class="chrome:footer">
-  {%- if site.version != false and version != "" -%}
-  <div class="chrome:footer_item">
-    <span class="text-lg">{{ version }}</span>
-  </div>
-  {%- endif -%}
-  <div class="chrome:footer_item">
-    <span class="text-lg"
-      >Updated: {{ site.time | date: "%Y-%m-%d %H:%M" }}</span
-    >
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer left column one-half">
+      <section class="small-font">
+        Invitation Homes Career Progression Framework —
+        Powered by <a href="https://github.com/jekyll/jekyll">jekyll</a>
+      </section>
+    </div>
+
+    <div class="footer right column one-half">
+      <section class="small-font">
+        {% if site.github_username %}
+        {% include icon-github.html username=site.github_username %}
+        {% endif %}
+      </section>
+    </div>
   </div>
 </footer>
