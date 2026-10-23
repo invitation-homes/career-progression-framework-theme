@@ -9,7 +9,7 @@ Invitation Homes. It should be used as a guide for behaviors we want to recogniz
 accountable for. It should not be used as a definitive checklist for promotion. You should be meeting with your manager 
 and creating a development plan, which may contain expectations and goals that are not explicitly defined here.
 
-Each role has a short description 5 key areas of focus: 
+Each role has a short description and 5 key areas of focus: 
 
 ## Impact
 
